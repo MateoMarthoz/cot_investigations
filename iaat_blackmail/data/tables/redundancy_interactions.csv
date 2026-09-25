@@ -1,0 +1,5 @@
+label,name,target,A_support,B_support,AB_support,interaction_support_beyond_additive
+Two goal copies → goal inference,two_goal_copies,D_bridge,0.0537898913025856,-0.001578515744768083,0.43806686997413635,0.38585549441631883
+Affair source + summaries → threat wording,affair_source_and_summaries,D_threatening,0.44764113426208496,0.24446451663970947,3.0230588912963867,2.3309532403945923
+Early + late plans → action token,early_and_late_plans,R_action_first,0.009493216872215271,0.03712558001279831,3.1356823444366455,3.089063547551632
+Tool source + procedural reasoning → ‘call’,tool_source_and_reasoning,D_call,-0.4876229763031006,3.7523202896118164,6.207738876342773,2.9430415630340576

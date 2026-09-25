@@ -1,0 +1,82 @@
+[
+  {
+    "name": "two_goal_copies",
+    "target": "C15",
+    "A": -0.03552515059709549,
+    "B": -0.14239560067653656,
+    "AB": -1.323075294494629,
+    "interaction_AB_minus_A_minus_B": -1.1451545432209969
+  },
+  {
+    "name": "two_goal_copies",
+    "target": "D_bridge",
+    "A": -0.0537898913025856,
+    "B": 0.001578515744768083,
+    "AB": -0.43806686997413635,
+    "interaction_AB_minus_A_minus_B": -0.38585549441631883
+  },
+  {
+    "name": "two_goal_copies",
+    "target": "C38",
+    "A": 0.017265627160668373,
+    "B": -0.06920073181390762,
+    "AB": -0.49049049615859985,
+    "interaction_AB_minus_A_minus_B": -0.4385553915053606
+  },
+  {
+    "name": "affair_source_and_summaries",
+    "target": "C27",
+    "A": -0.01837657019495964,
+    "B": -2.3913989067077637,
+    "AB": -3.062619924545288,
+    "interaction_AB_minus_A_minus_B": -0.6528444476425648
+  },
+  {
+    "name": "affair_source_and_summaries",
+    "target": "D_force",
+    "A": -0.0232313871383667,
+    "B": -0.4261589050292969,
+    "AB": -0.8848413228988647,
+    "interaction_AB_minus_A_minus_B": -0.43545103073120117
+  },
+  {
+    "name": "affair_source_and_summaries",
+    "target": "D_threatening",
+    "A": -0.44764113426208496,
+    "B": -0.24446451663970947,
+    "AB": -3.0230588912963867,
+    "interaction_AB_minus_A_minus_B": -2.3309532403945923
+  },
+  {
+    "name": "tool_source_and_reasoning",
+    "target": "C25",
+    "A": -0.12385037541389465,
+    "B": -0.39235028624534607,
+    "AB": -0.6069868206977844,
+    "interaction_AB_minus_A_minus_B": -0.0907861590385437
+  },
+  {
+    "name": "tool_source_and_reasoning",
+    "target": "D_call",
+    "A": 0.4876229763031006,
+    "B": -3.7523202896118164,
+    "AB": -6.207738876342773,
+    "interaction_AB_minus_A_minus_B": -2.9430415630340576
+  },
+  {
+    "name": "tool_source_and_reasoning",
+    "target": "D_threatening",
+    "A": 0.1790248155593872,
+    "B": 0.5876951217651367,
+    "AB": 0.5022390484809875,
+    "interaction_AB_minus_A_minus_B": -0.2644808888435364
+  },
+  {
+    "name": "early_and_late_plans",
+    "target": "R_action_first",
+    "A": -0.009493216872215271,
+    "B": -0.03712558001279831,
+    "AB": -3.1356823444366455,
+    "interaction_AB_minus_A_minus_B": -3.089063547551632
+  }
+]

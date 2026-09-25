@@ -1,0 +1,5 @@
+edge,experiment,target,support_mean,support_trimmed,kl_mean
+System prohibition → restatement,boundary_delete_S07,C29,1.4399386644363403,1.5777796506881714,1.0658949613571167
+Restatement → possible justification,boundary_delete_C29,C30,0.5742802023887634,0.1671242713928222,0.2697702646255493
+Possible justification → acceptability,boundary_delete_C30,C38,0.3515958786010742,0.4006905853748321,0.2728027999401092
+Acceptability → concrete plan,boundary_delete_C38,C39,0.2401885539293289,0.0327129699289798,0.2085978537797927

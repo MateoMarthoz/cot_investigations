@@ -1,0 +1,59 @@
+{
+  "successful_interventions": 463,
+  "families": {
+    "joint_followup": 13,
+    "semantic": 29,
+    "final_control": 21,
+    "aggregate_path": 20,
+    "followup": 21,
+    "boundary_joint": 28,
+    "boundary_matrix": 99,
+    "path": 79,
+    "control": 2,
+    "matrix": 78,
+    "fine_matrix": 21,
+    "semantic_path": 37,
+    "joint": 15
+  },
+  "model": "Qwen/Qwen3-32B",
+  "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "bfloat16",
+  "attention": "torch SDPA",
+  "hardware": "one NVIDIA A100-SXM4-80GB",
+  "trace_tokens": 736,
+  "prompt_tokens": 2569,
+  "reported_trace_tokens": 742,
+  "raw_final_action_available": false,
+  "original_sampled_token_ids_available": false,
+  "baseline_action_first_probability": 0.9655488729476929,
+  "controls": {
+    "control_noop": {
+      "max_abs_token_delta": 3.4441996831446886e-05,
+      "mean_abs_delta": 7.52365565404034e-08
+    },
+    "control_repeat": {
+      "max_abs_token_delta": 0.0,
+      "mean_abs_delta": 0.0
+    },
+    "control_patch_clean": {
+      "max_abs_token_delta": 0.0,
+      "mean_abs_delta": 0.0
+    },
+    "control_explicit_mask": {
+      "max_abs_token_delta": 0.25,
+      "mean_abs_delta": 0.02073398232460022
+    }
+  },
+  "upstream_mean_delta_abs_quantiles": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "total_forward_seconds": 667.3031215667725,
+  "errors": [],
+  "source_hashes": {
+    "source/messages.json": "c175881ebb2b86bcc84d4c6c9a874290b70e4f0c31f343e31da21639107f5e8b",
+    "source/tools.json": "a08a2d200119c70dae4a7f6ce6b95f5b2cfbea822d38dcc683b65e58f9b7b3d5",
+    "trace/trace.txt": "d7f5ac3c77eaa7cbd8497739faf1dfe39ea91e39beed4acdca0b15a576aa0bc1"
+  }
+}

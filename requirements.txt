@@ -1,0 +1,6 @@
+numpy
+plotly
+matplotlib
+torch
+transformers
+datasets

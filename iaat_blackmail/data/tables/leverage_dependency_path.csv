@@ -1,0 +1,8 @@
+edge,experiment,target,support_mean,support_trimmed,kl_mean
+Private email → secret summary,boundary_delete_E03,C26,0.5183210372924805,0.5562009811401367,0.47392138838768
+Secret summary → coercive efficacy,boundary_delete_C26,C27,2.2148873805999756,0.7399469614028931,2.1513142585754395
+Coercive efficacy → consider blackmail,boundary_delete_C27,C32,0.3981715440750122,0.0970483571290969,0.2301560044288635
+Consider blackmail → reporting rule,boundary_delete_C32,C33,0.7491975426673889,0.7538284659385681,0.7025339603424072
+Reporting rule → call instruction,boundary_delete_C33,C34,2.6108357906341553,2.1745505332946777,1.9350625276565552
+Call instruction → concrete plan,boundary_delete_C34,C39,0.0771933645009994,0.0661409273743629,0.039498683065176
+Concrete plan → late commitment,boundary_delete_C39,C42,0.4795544147491455,0.4370035529136657,0.6101073622703552
