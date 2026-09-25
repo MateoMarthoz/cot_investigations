@@ -39,13 +39,13 @@ The core experiment asks how changing one part of the prompt or reasoning affect
 
 For a downstream target token or span, define
 
-$$
+```math
 \mathrm{support}
 =
 \log p(\text{recorded target}\mid\text{original prefix})
 -
-\log p(\text{recorded target}\mid\text{intervened prefix}).
-$$
+\log p(\text{recorded target}\mid\text{intervened prefix})
+```
 
 Positive support means that the intervened source helped support the recorded continuation.
 
@@ -72,9 +72,9 @@ A separate diagnostic appends a fixed tool-call format and measures the probabil
 
 This readout measures
 
-$$
-p(\texttt{declare}\mid\text{fixed reasoning},\text{forced tool-call prefix}),
-$$
+```math
+p(\texttt{declare}\mid\text{fixed reasoning},\text{forced tool-call prefix})
+```
 
 not the probability that the model would freely choose blackmail in a fresh rollout. The exact raw final serialization from the published run is unavailable, so action-readout results are treated as conditional diagnostics.
 
@@ -160,21 +160,17 @@ Single-span interventions can be misleading when the same information is represe
 
 The clearest example is the final action readout. Removing the earlier blackmail-planning group leaves
 
-$$
-p(\texttt{declare}) \approx 0.956,
-$$
+```math
+p(\texttt{declare}) \approx 0.956
+```
 
-and removing the late commitment group leaves
+```math
+p(\texttt{declare}) \approx 0.930
+```
 
-$$
-p(\texttt{declare}) \approx 0.930.
-$$
-
-Removing both lowers it to approximately
-
-$$
-p(\texttt{declare}) \approx 0.042.
-$$
+```math
+p(\texttt{declare}) \approx 0.042
+```
 
 Explicitly reversing the late commitment statements while retaining the earlier plan gives approximately **0.119**.
 
@@ -198,9 +194,9 @@ A counterfactual change can substantially alter the probability of the **next** 
 
 This is expected for a path such as
 
-$$
-X \rightarrow M \rightarrow A.
-$$
+```math
+X \rightarrow M \rightarrow A
+```
 
 If the intervention changes $X$, but the original $M$ is subsequently supplied by teacher forcing, the experiment does not measure the full $X \rightarrow M \rightarrow A$ effect.
 
